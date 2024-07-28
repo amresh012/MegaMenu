@@ -97,7 +97,7 @@ export const links = [
     ],
   },
   {
-    Head: "Strength",
+    name: "Strength",
     submenu: true,
     sublinks: [
       {
@@ -126,7 +126,7 @@ export const links = [
       },
       {
         label: "PLATE LOAD",
-          route: "/",
+        route: "/",
         submenu:true,
         sublinks: [
           {
@@ -136,5 +136,50 @@ export const links = [
         ],
       },
     ],
+  },
+];
+
+export const LikeItem = [
+  {
+    name: "45 Degree Leg Press",
+    price: "168,174",
+    desc: "Gym Leg Press Machine",
+    ImgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHB6wEJdE8p-PLJZaOPImO_FEyjxxkHwfQ6dhke2th5JEl4G_7LIX9sWpHNA&s",
+  },
+  {
+    name: "45 Degree Leg Press",
+    price: "168,174",
+    desc: "Gym Leg Press Machine",
+    ImgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHB6wEJdE8p-PLJZaOPImO_FEyjxxkHwfQ6dhke2th5JEl4G_7LIX9sWpHNA&s",
+  },
+  {
+    name: "45 Degree Leg Press",
+    price: "168,174",
+    desc: "Gym Leg Press Machine",
+    ImgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHB6wEJdE8p-PLJZaOPImO_FEyjxxkHwfQ6dhke2th5JEl4G_7LIX9sWpHNA&s",
+  },
+  {
+    name: "45 Degree Leg Press",
+    price: "168,174",
+    desc: "Gym Leg Press Machine",
+    ImgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHB6wEJdE8p-PLJZaOPImO_FEyjxxkHwfQ6dhke2th5JEl4G_7LIX9sWpHNA&s",
+  },
+  {
+    name: "45 Degree Leg Press",
+    price: "168,174",
+    desc: "Gym Leg Press Machine",
+    ImgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHB6wEJdE8p-PLJZaOPImO_FEyjxxkHwfQ6dhke2th5JEl4G_7LIX9sWpHNA&s",
+  },
+  {
+    name: "45 Degree Leg Press",
+    price: "168,174",
+    desc: "Gym Leg Press Machine",
+    ImgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHB6wEJdE8p-PLJZaOPImO_FEyjxxkHwfQ6dhke2th5JEl4G_7LIX9sWpHNA&s",
   },
 ];

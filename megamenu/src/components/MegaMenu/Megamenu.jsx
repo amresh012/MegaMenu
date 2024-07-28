@@ -2,6 +2,8 @@
 import { Divider } from "@mui/material";
 import "./Megamenu.css"
 import { GoDash } from "react-icons/go";
+import { links } from "../../constant";
+import { Link } from "react-router-dom";
 
 const Megamenu = ({title ,icon}) => {
   return (
@@ -32,10 +34,21 @@ const Megamenu = ({title ,icon}) => {
           {/* section-1 end */}
           <Divider orientation="vertical" variant="middle" flexItem />
           {/* section-2 */}
-          <div className="w-[25rem]">{}</div>
+          <div className="w-[25rem]">
+            <ul className="">
+              {
+                links.map((item) => (
+                  <Link key={item.Head} className="p-2 hover:underline duration-300 underline-offset-8 flex items-center gap-1">
+                    <GoDash className="text-indigo-500 font-bold"/>
+                    <li className="hover:pl-2 duration-300">{ item.name }</li>
+                  </Link>
+                ))
+              }
+            </ul>
+          </div>
           {/* section-2 end */}
 
-          <div className=" flex flex-col w-[25rem]  items-start gap-2 justify-start  ">
+          <div className=" flex flex-col w-1/3  items-start gap-2 justify-start  ">
             <h1 className="text-xl">FEATURED</h1>
             <div className=" flex items-start h-full gap-2">
               <div className="">
