@@ -36,14 +36,15 @@ const Megamenu = ({title ,icon}) => {
           {/* section-2 */}
           <div className="w-[25rem]">
             <ul className="">
-              {
-                links.map((item) => (
-                  <Link key={item.Head} className="p-2 hover:underline duration-300 underline-offset-8 flex items-center gap-1">
-                    <GoDash className="text-indigo-500 font-bold"/>
-                    <li className="hover:pl-2 duration-300">{ item.name }</li>
-                  </Link>
-                ))
-              }
+              {links.map((item) => (
+                <Link
+                  key={item.Head}
+                  className="p-2 hover:underline duration-300 underline-offset-8 flex items-center gap-1"
+                >
+                  <GoDash className="text-indigo-500 font-bold" />
+                  <li className="hover:pl-2 duration-300">{item.name}</li>
+                </Link>
+              ))}
             </ul>
           </div>
           {/* section-2 end */}
@@ -51,21 +52,26 @@ const Megamenu = ({title ,icon}) => {
           <div className=" flex flex-col w-1/3  items-start gap-2 justify-start  ">
             <h1 className="text-xl">FEATURED</h1>
             <div className=" flex items-start h-full gap-2">
-              <div className="">
+              <div className="flex flex-col gap-2 overflow-hidden">
                 <img
                   src="https://kfsfitness.com/wp-content/uploads/2022/03/blog11.jpg"
                   alt=""
-                  className=""
+                  className="hover:scale-105 duration-300"
                 />
-                <span></span>
+                <span className="font-thin tracking-wider">
+                  Competition Kit Bell
+                </span>
               </div>
-              <div className=" ">
+              <div className="flex flex-col gap-2 overflow-hidden ">
                 <img
                   src="https://kfsfitness.com/wp-content/uploads/2022/03/blog15.jpg"
                   alt=""
-                  className=""
+                  className="hover:scale-105 duration-300"
                 />
-                <span></span>
+                <span className="font-thin tracking-widest">
+                  {"'8'"}
+                  {"'8'"} LIFTING PLATFORM
+                </span>
               </div>
             </div>
           </div>
